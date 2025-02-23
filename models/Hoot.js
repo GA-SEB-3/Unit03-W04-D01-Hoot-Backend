@@ -34,3 +34,7 @@ const hootSchema = new Schema({
    comments:[commentSchema]
 },{timestamps:true}
 )
+
+const Hoot = model("Hoot",hootSchema)
+
+module.exports = Hoot
